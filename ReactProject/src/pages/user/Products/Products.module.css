@@ -1,0 +1,101 @@
+.Products{
+    background-color: #9f735a;
+    padding: 40px;
+    
+}
+.Products p{
+    font-size: 10px;
+}
+@media (max-width:1200px){
+    .Products img
+    {
+      display: none;
+    }
+    .reviewsSection{
+        display: none;
+    }
+    
+
+}
+.Products .productCard{
+    background-color: #d3cdc1;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+.Modal{
+    z-index: 999999999999999999999999999999999999;
+}
+.reviewBTns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.Products .Swiper{
+    width: 60%;
+}
+.paginationButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.rating {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+.Prod{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.ProductsImage img{
+    height: 90%;
+    border-radius: 10%;
+    
+}
+.DescriptionProducts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Modal{
+    color: #795642;
+}
+.btn {
+    padding: 5px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: #79564267;
+    border: 3px solid #7956425d;
+
+}
+
+.btnPrimary {
+    background-color:#7956425d;
+    border: 3px solid #7956425d;
+    z-index: 9;
+
+}
+.btnPrimary:hover{
+    background-color: var(--subcolor) !important;
+}
+.btnSecondary {
+    background-color: #795642;
+    z-index: 9;
+}
+.btnSecondary:hover{
+    background-color: var(--subcolor) !important;
+    border: 5px solid #7956425d !important;
+}

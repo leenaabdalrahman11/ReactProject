@@ -1,0 +1,102 @@
+.FooterSection {
+  background-color: #795642;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.FooterSection img {
+  width: 200px;
+  height: 200px;
+  opacity: 0.6;
+  border-radius: 2%;
+}
+.Icons ul li {
+  list-style-type: none;
+}
+.Image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+footer h2 {
+  color: #d4cdc2;
+}
+.i {
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.6;
+}
+.Icons {
+  width: 40%;
+  display: flex;
+}
+.Icons ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+.Icons li {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.Image {
+  margin-bottom: 10px;
+}
+.Icons ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.Sub {
+  width: 25%;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1rem;
+}
+.Container {
+  width: 75%;
+}
+.FooterInfo {
+  display: flex;
+  justify-content: space-between;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+.SubFooter ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.SubFooter li {
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+@media (max-width: 700px) {
+  .i {
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.6;
+  }
+}
+.ii {
+  width: 10px;
+  color: #fff;
+}

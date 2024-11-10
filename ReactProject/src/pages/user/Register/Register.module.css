@@ -1,0 +1,34 @@
+
+.backGround{
+    background-image: url(pexels-alexandra-maria-58259-318236.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.Form{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    padding: 20px;
+    color: #795642;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.btnPrimary {
+    background-color:#795642 !important;
+    border: 3px solid #7956425d;
+    z-index: 9999999999999999999999;
+}
+.btnPrimary:hover{
+    background-color: var(--subcolor) !important;
+}

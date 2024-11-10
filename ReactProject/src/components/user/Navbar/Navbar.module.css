@@ -1,0 +1,81 @@
+:root {
+    --subcolor: #8f613b;
+}
+
+nav .navbar {
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    color: white;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999;
+}
+.navbarTransparent .Container,.navbarScrolled .Container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+
+nav.navbarTransparent {
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    color: white;
+    left: 0;
+    display: flex;
+    
+    justify-content: center;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999;
+    transition: background-color 0.3s ease;
+}
+
+nav.navbarScrolled {
+    background-color:#795642; 
+    position: fixed !important;
+    top: 0;
+    color: white;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999;
+    transition: background-color 0.3s ease;
+}
+
+.navlink {
+    color: #fff !important; 
+    text-decoration: none;
+    transition: color 0.3s ease !important;
+}
+.navlinkk {
+    color: #fff !important;}
+.navlink:hover {
+    background-color: var(--subcolor);
+    border-radius: 5px ;
+    color: #ddd !important; 
+}
+.logo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;   
+
+}
+@media (max-width:992px){
+    
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .NAVBARUL{
+    display: flex;
+    gap: 20px;
+  }

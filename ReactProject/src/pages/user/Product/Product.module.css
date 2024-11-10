@@ -1,0 +1,141 @@
+
+.space{
+    height: 4rem;
+}
+/* MEDIA QUERIES */
+/*@media (max-width: 1050px) {
+  .swiper {
+    width: 350px;
+    height: 450px;
+  }
+}*/
+@media (max-width: 930px) {
+    section {
+    grid-template-columns: 100%;
+    grid-template-rows: 55% 40%;
+    grid-template-areas:
+    "slider"
+    "content";
+    place-items: center;
+    gap: 64px;
+    padding: 60px;
+    }
+    .swiper {
+    grid-area: slider;
+    }
+    .content {
+    grid-area: content;
+    text-align: center;
+    .content h1 {
+    margin-bottom: 20px;
+    }
+    }
+}
+
+.ProductImg{
+    width: 50%;
+    height: 50vh;
+    border-radius: 2px;
+}
+
+/* Ensure the Swiper slide itself is square */
+.Slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  background-size: cover;
+  user-select: none;
+
+}
+
+.Product img{
+    width: 100%;
+    height: 60vh;
+    opacity: 0.6;
+    
+}
+.productDetails{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-image: url(pexels-pixabay-264507.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.productDetails{
+    text-align: center;
+}
+.reviewsSection{
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: 50%;
+}
+.reviewBTns{
+    display: flex;
+    gap: 10px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #795642;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #fff;
+}
+.btn:hover{
+    scale: 1.1;
+
+}
+.rating {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+  }
+.btnSecondary{
+    background-color: #795642;
+    color: #fff;
+    border: 3px solid #fff;
+
+
+} 
+.btnPrimary {
+    background-color:#fff;
+    border: 3px solid #7956425d;
+    z-index: 9;
+}
+
+.Product{
+    background-color: #795642;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    border-radius: 40px;
+    padding: 20px;
+    gap: 80px;
+    color: #b8a99b;
+
+}
+.Description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+/* Style the images inside the Swiper to fit the square shape */
+.productImg {
+    width: 100%; /* Make image fill the entire square slide */
+    border-radius: 0; /*L Ensure there are no rounded corners */
+    background-color: aquamarine;
+    
+}

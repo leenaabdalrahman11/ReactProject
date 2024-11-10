@@ -1,0 +1,74 @@
+
+.categories img{
+    border-radius: 10%;
+    width: 30%;
+    opacity: 0.8;
+}
+
+.categories {
+    position: relative; 
+    padding: 30px;
+    background-image: url('pexels-igor-starkov-233202-769153.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    color: #fff; 
+    z-index: 0; 
+}
+
+.categories::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1; }
+
+.CategoryCard{
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+.swiperSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.CategoryCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+    background-color: #795642bc;
+    text-align: center;
+    padding: 20px;
+}
+.CategoryCard:hover{
+    scale: 1.1;
+    opacity: 1;
+    border-radius: 20px;
+    background-color: #795642;
+
+}
+.TheCategories{
+    background-image: url(pexels-igor-starkov-233202-769153.jpg);
+}
+
+.categoryImage {
+    border-radius: 10px;
+}

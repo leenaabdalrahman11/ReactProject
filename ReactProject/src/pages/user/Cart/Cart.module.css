@@ -1,0 +1,161 @@
+.space{
+    height: 6rem;
+    background-color: #795642;
+}
+.ProductInCartHead{
+    width: 15%;
+    text-align: center;
+}
+@media (max-width:500px){
+    .ProductInCart,.ProductInCartHead{
+        font-size: 5px;
+    }
+    .ProductInCart .QuantityBtn{
+        padding: 0.2rem 0.4rem; /* Smaller padding */
+        font-size: 0.5rem; /* Smaller font size */
+    }
+}
+
+.Cart{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ProductInCart{
+    text-align: center;
+}
+.CartBtn{
+    color: red;
+    border: 1px solid #795642;
+    border-radius: 2px;
+    padding: 10px;
+}
+.ProductInCartHead {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.1em;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+  }
+  .ProductInCart {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+  }  
+  .QuantityBtn {
+    margin: 0 5px;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    border-radius: 4px;
+  }
+  
+  .CartBtn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+  }
+  
+  .CartBtn:hover {
+    background-color: #ff3333;
+  }
+  
+  .ProductInCart img {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  @keyframes colorPulse {
+    0% {
+      color: #333;
+    }
+    50% {
+      color: #795642;
+    }
+    100% {
+      color: #333;
+    }
+  }
+  
+  .CartTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: cartTitleProfessionalAnimation 1.5s ease-out, colorPulse 3s infinite ;
+    letter-spacing: 2px;
+  }
+  .CartTitle {
+    font-size: 50px;
+  }
+  .Cart{
+    background-image: url(pexels-angela-roma-7319125.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @keyframes cartTitleProfessionalAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0.8) translateY(-20px);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1.1) translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+  table th, table td {
+    padding: 15px;
+    font-size: 0.95em;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }  
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .btnSecondary{
+    background-color:#7956425d;
+    border: 3px solid #7956425d;
+    z-index: 9;
+  }
+
+  .btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #79564267;
+  }
+  .btn:hover{
+    scale: 1.2;
+  }
